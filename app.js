@@ -1,0 +1,13 @@
+// Arrays containing different options for the random messages.
+// You will be on bed until...
+const firstMessage = ['early morning', 'late morning', 'early afternoon'];
+
+// The artist you'll listen to trhougout the day will be...
+const secondMessage = ['Billie Eilish', 'Ed Sheeran', 'Diplo', 'City Girl', 'Dennis Lloyd', 'Dua Lipa', 'Foster the People', 'Gorillaz', 'Halsey', 'Imagine Dragons', 'Kanye West', 'Kendrick Lamar', 'Lana Del Rey', 'Lorde', 'Miley Cyrus', 'Mumford & Sons', 'Post Malone', 'Rihanna', 'Sia', 'The Weeknd', 'Troye Sivan', 'Twenty One Pilots', 'Zedd'];
+
+// You will go to...
+const thirdMessage = ['a good restaurant', 'the zoo', 'to Disney', 'a museum', 'your artis\'t concert'];
+
+// You will end your day with...
+const fourthMessage = ['a good movie', 'a good book', 'a good TV show', 'a good video game', 'a good nap'];
+
