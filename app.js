@@ -62,3 +62,15 @@ const getRandomPieces = (obj) => {
 
   return randomPieces;
 };
+
+
+const generateRandomMessage = () => {
+  const randomArr = getRandomPieces(messagePieces);
+  return `Your perfect day for your free day is:
+  You'll be on bed until: ${randomArr[0]}.
+  The artist you'll listen to throught out the day is: ${randomArr[1]}.
+  You'll go to: ${randomArr[2]}.
+  You'll end your day with: ${randomArr[3]}`;
+}
+
+console.log(generateRandomMessage());
